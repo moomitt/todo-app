@@ -9,7 +9,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom, rgb(231, 157, 238),rgb(135, 233, 126));
+  background-color: lightsteelblue;
 }
 
 header {
@@ -35,7 +35,7 @@ header {
 
 .inputForm button {
   padding: 0.38rem 0.5rem;
-  background: rgb(243, 240, 84);
+  background-color: whitesmoke;
 }
 
 .todoList {
@@ -58,17 +58,22 @@ header {
 
 .icons .fa-check {
   padding: 0.487rem .5rem;
+  margin-bottom: 1.0rem;
+  height: 2.0rem;
   background: rgb(83, 164, 195);
 }
 
 .icons .fa-trash {
   padding: 0.487rem .5rem;
+  margin-bottom: 1.0rem;
+  height: 2.0rem;
   background: rgb(197, 70, 81);
 }
 
 .todoText {
   min-width: 15rem;
-  max-height: 1.8rem;
+  margin-bottom: 1.0rem;
+  height: 2.0rem;
   padding: 0.3rem 4rem;
   background: white;
 }
