@@ -28,13 +28,14 @@ header {
 
 .inputForm input {
   width: 15rem;
-  height: 1.7rem;
+  height: 2.0rem;
   padding: 0.5rem;
   border: none;
 }
 
 .inputForm button {
-  padding: 0.38rem 0.5rem;
+  padding: 0.487rem .7rem;
+  height: 2.0rem;
   background-color: whitesmoke;
 }
 
