@@ -29,13 +29,17 @@ header {
 .inputForm input {
   width: 15rem;
   height: 2.0rem;
+  margin-left: 3.3rem;
+  border-radius: 2.0rem;
   padding: 0.5rem;
   border: none;
 }
 
 .inputForm button {
   padding: 0.487rem .7rem;
+  margin: 0 .5rem 1.0rem .5rem;
   height: 2.0rem;
+  border-radius: 2.0rem;
   background-color: whitesmoke;
 }
 
@@ -61,6 +65,7 @@ header {
   padding: 0.487rem .5rem;
   margin-bottom: 1.0rem;
   height: 2.0rem;
+  border-radius: 2.0rem;
   background: rgb(83, 164, 195);
 }
 
@@ -68,13 +73,15 @@ header {
   padding: 0.487rem .5rem;
   margin-bottom: 1.0rem;
   height: 2.0rem;
+  border-radius: 2.0rem;
   background: rgb(197, 70, 81);
 }
 
 .todoText {
   min-width: 15rem;
-  margin-bottom: 1.0rem;
+  margin: 0 .5rem 1.0rem .5rem;
   height: 2.0rem;
+  border-radius: 2.0rem;
   padding: 0.3rem 4rem;
   background: white;
 }
