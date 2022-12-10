@@ -9,7 +9,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   width: 100vw;
   height: 100vh;
-  background-color: lightsteelblue;
+  background-color: lightblue;
 }
 
 header {
@@ -62,11 +62,11 @@ header {
 
 
 .icons .fa-check {
-  padding: 0.487rem .5rem;
+  padding: 0.587rem .5rem 0.287rem .6rem;
   margin-bottom: 1.0rem;
   height: 2.0rem;
   border-radius: 2.0rem;
-  background: rgb(83, 164, 195);
+  background: deepskyblue;
 }
 
 .icons .fa-trash {
@@ -88,6 +88,6 @@ header {
 
 button {
   border: none;
-  background-color: lightsteelblue;
-  width: 32px;
+  background-color: lightblue;
+  width: 33px;
 }
