@@ -10,11 +10,13 @@ export const InputForm = ({taskList, setTaskList}) => {
     setTaskList([
       ...taskList,
       {
+        id: taskList.length,
         text: inputText
       }
     ]);
     //入力した文字を消す
     setInputText("")
+    console.log(taskList);
   }
 
   const handleChange = (e) => {

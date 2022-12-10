@@ -1,6 +1,12 @@
 import React from 'react'
 
 export const TodoList = ({taskList, setTaskList}) => {
+
+  const handleDelete = (id) => {
+    //タスクを削除する
+    setTaskList(taskList.filter((task) => task.id !== id));
+  }
+
   return (
     <div className='todoList'>
       <div className='todos'>
@@ -13,7 +19,9 @@ export const TodoList = ({taskList, setTaskList}) => {
               <span>{task.text}</span>
             </div>
             <div className="icons">
-              <i className='fas fa-trash'></i>
+              <button onClick={() => handleDelete(task.id)}>
+                <i className='fas fa-trash'></i>
+              </button>
             </div>
           </div>
         ))}
