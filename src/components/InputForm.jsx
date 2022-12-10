@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
-export const InputForm = ({taskList, setTaskList, inputText}) => {
+export const InputForm = ({taskList, setTaskList}) => {
 
-  const [InputText, setInputText] = useState("")
+  const [inputText, setInputText] = useState("")
  
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -10,10 +10,11 @@ export const InputForm = ({taskList, setTaskList, inputText}) => {
     setTaskList([
       ...taskList,
       {
-        text: InputText
+        text: inputText
       }
     ]);
-    console.log(taskList);
+    //入力した文字を消す
+    setInputText("")
   }
 
   const handleChange = (e) => {
@@ -24,7 +25,7 @@ export const InputForm = ({taskList, setTaskList, inputText}) => {
   return (
     <div className='inputForm'>
       <form onSubmit={handleSubmit}>
-        <input type="text" onChange={handleChange} value={inputText} />
+        <input type="text" onChange={handleChange} value={inputText}/>
         <button>
           <i className="fas fa-plus-square"></i>
         </button>
